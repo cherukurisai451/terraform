@@ -1,8 +1,8 @@
 
-peline {
+pipeline {
     agent {
         node {
-            label 'master'
+            label 'sai'
 			    }
     }
 	stage('SCM Checkout'){
