@@ -1,10 +1,8 @@
 node {
  
-    // Mark the code checkout 'Checkout'....
     stage 'Checkout'
  
-    // // Get some code from a GitHub repository
-    git url: 'https://github.com/cherukurisai451/terraform.git'
+ git url: 'https://github.com/cherukurisai451/terraform.git'
  
     
  
